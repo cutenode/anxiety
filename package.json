@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "./bin/cli.js",
+  "files": [
+    "./bin",
+    "./data/outputs",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
+    "build": "node build/creator.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "boxen": "^3.2.0",
+    "chalk": "^2.4.2"
+  }
 }
