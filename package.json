@@ -5,8 +5,8 @@
   "main": "index.js",
   "bin": "./bin/cli.js",
   "files": [
-    "./bin",
-    "./data/outputs",
+    "bin/",
+    "data/outputs/",
     "LICENSE",
     "README.md"
   ],
