@@ -1,7 +1,7 @@
 {
   "name": "anxiety",
   "version": "1.0.0",
-  "description": "",
+  "description": "A cli to share our collective anxieties",
   "main": "index.js",
   "bin": "./bin/cli.js",
   "files": [
