@@ -7,15 +7,14 @@ const anxieties = require('../data/anxieties.json')
 const options = {
   padding: 3,
   margin: 3,
-  borderStyle: 'round',
-  float: 'center'
+  borderStyle: 'round'
 }
 
-const becauseOf = color.cyan('I am anxious because...')
+const because = color.cyan('I am anxious because...')
 
 for (var anxity in anxieties) {
   const strinifiedIndex = anxity.toString()
-  const output = box(becauseOf + '\n' + anxieties[anxity], options)
+  const output = box(because + '\n' + anxieties[anxity], options)
 
   console.log(output)
 
