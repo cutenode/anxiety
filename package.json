@@ -23,8 +23,8 @@
   "author": "Tierney Cyren <hello@bnb.im>",
   "license": "MIT",
   "devDependencies": {
-    "boxen": "^3.2.0",
-    "chalk": "^2.4.2"
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0"
   },
   "dependencies": {},
   "repository": {
