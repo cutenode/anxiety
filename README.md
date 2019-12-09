@@ -1,5 +1,7 @@
 # anxiety
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cutenode/anxiety.svg)](https://greenkeeper.io/)
+
 a simple CLI to share our anxieties
 
 ## usage
